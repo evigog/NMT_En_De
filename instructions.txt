@@ -1,0 +1,17 @@
+Initial analysis might be found in jupyter notebook: sentences_analysis.ipynb
+to run it it is required to install jupyter-notebook.
+
+Actual model developed during this project can be found in file: seq2seq.py
+to run it:
+download the data from: http://www.statmt.org/wmt14/training-parallel-nc-v9.tgz
+untar and place the data file (for english-german translation task) in data directory and rename them to: englishaa for english sentences and germanaa for german sentences.
+then execute:
+python seq2seq.py
+
+After training in the working directory files with model, weights, logs and preprocessed data will be stored.
+
+To visualize training identify the name of created by program folder: e.g. "logs3456286" and call: tensorboard --output_dir=logs3456286/
+Go to the browser following the displayed link your_ip_address:6006
+
+To restore trained model run file seq2seq_test.py:
+python seq2seq_test.py

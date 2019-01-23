@@ -1,0 +1,61 @@
+# PARAMETERS:
+EMBED_SIZE = 50
+EPOCHS = 1000
+OPTIMIZER = RMSPROP
+MAX_SENT_SIZE_SRC = 10
+MAX_SENT_SIZE_TRGT = 15
+BATCH_SIZE = 128
+SUBSAMPLE_SIZE = 2400
+LAYERS = 1
+SIZE OF TRAINING DATA AFTER PROCESSING = 1848
+
+
+
+Epoch 249/1000
+1848/1848 [==============================] - 197s 106ms/step - loss: 1.9042 - acc: 0.1380 - val_loss: 4.0274 - val_acc: 0.0448
+
+Epoch 00249: val_acc did not improve from 0.05394
+--------------------------------------------------------------------------
+Input sentence: it is high time to consider novel approaches
+Decoded sentence:  huang die der des aneinander des einsatzgüter defizite bemerkte murren murren die israelis die israelis die israelis übernimmt und die sie die welt in den kommenden von gang zu lassen _END
+BLEU score: 9.669759824028608e-232
+
+
+-------------------------------------------------------------------------------
+										...
+-------------------------------------------------------------------------------
+
+
+Epoch 250/1000
+1848/1848 [==============================] - 197s 106ms/step - loss: 1.9015 - acc: 0.1387 - val_loss: 4.0334 - val_acc: 0.0437
+
+Epoch 00250: val_acc did not improve from 0.05394
+--------------------------------------------------------------------------
+Input sentence: because it will take time to collect revenues from the regional vat COMMA the eu should provide financial help during the transition
+Decoded sentence:  die des bzw des aufsteigen anzukurbeln _END
+BLEU score: 1.4147351699132998e-231
+--------------------------------------------------------------------------
+Input sentence: this COMMA in turn COMMA created once again the kind of winwin situation that is so important for future relations between the eu and russia
+Decoded sentence:  die des bzw des aufsteigen anzukurbeln _END
+BLEU score: 1.4147351699132998e-231
+--------------------------------------------------------------------------
+Input sentence: many germans today rightly feel that any system of fiscal transfers will morph into a permanent feeding tube COMMA much the way that northern italy has been propping up southern italy for the last century
+Decoded sentence:  großmachtansprüche aufzustehen _END
+BLEU score: 1.4637115948630222e-231
+Epoch 251/1000
+1848/1848 [==============================] - 197s 106ms/step - loss: 1.8983 - acc: 0.1386 - val_loss: 4.0333 - val_acc: 0.0441
+
+Epoch 00251: val_acc did not improve from 0.05394
+--------------------------------------------------------------------------
+Input sentence: but it makes far more sense to use the force of markets – the power of incentives – than to rely on goodwill COMMA especially when it comes to oil companies that regard their sole objective as maximizing profits COMMA regardless of the cost to others
+Decoded sentence:  die der des bzw des einsatzgüter krieges krieges anzukurbeln grundlagen gegenwärtig die für die die der der des aneinander des entlang gleichwohl auseinandersetzen nationalistischen leistungen erfolgreiches fragte krieges reihe multilateralismus kostennutzenbasis ray huang die der der der des aneinander des entlang erm erscheinen übernimmt versprach und die märkte – die
+BLEU score: 9.269709363626008e-232
+--------------------------------------------------------------------------
+Input sentence: regional vat rates might be increased slightly if expenditure restraint is not sufficient to offset the loss of tariff revenues due to the customs union
+Decoded sentence:  die des bzw des aufsteigen anzukurbeln _END
+BLEU score: 1.3682868820983658e-231
+--------------------------------------------------------------------------
+Input sentence: the feds judgment appeared to be that it was largely if not completely powerless it had done all that it could COMMA and the levers of monetary policy were no longer strongly connected to determining the level of economic activity
+Decoded sentence:  die der des bzw des einsatzgüter krieges _END
+BLEU score: 1.3020095722934844e-231
+
